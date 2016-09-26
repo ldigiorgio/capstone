@@ -1,5 +1,5 @@
 
-/*html {
+.with-background-image {
   margin:fa
    0;
   background: url("background.jpg") no-repeat center fixed;
@@ -7,7 +7,12 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}*/
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
 
 @font-face {
   font-family:'ProximaNovaRegular';
@@ -32,7 +37,7 @@
 }
 
 .nav a {
-  color: black;
+  color: #000033;
   text-decoration: none;
   transition-property: background;
   transition-duration: 1s;
@@ -47,15 +52,63 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
   text-align: center;
 }
 
 h1 {
     font-family: 'ProximaNovaRegular', sans-serif;
+    color: #000033;
 }
 
-@media (min-width: 480px) {
+h2 {
+    font-family: 'ProximaNovaRegular', sans-serif;
+    color: #000033;
+}
+
+p {
+    font-family: 'ProximaNovaRegular', sans-serif;
+    color: #000033;
+}
+
+.container a {
+  text-decoration: none;
+  font-family: 'ProximaNovaRegular', sans-serif;
+  font-weight: bold;
+  color: #3333cc;
+}
+
+footer{
+  margin: 0 auto;
+  color:  #000033;
+}
+
+form{
+    font-family: 'ProximaNovaRegular', sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+input{
+  padding: 1%;
+  margin: 2%;
+}
+
+select{
+  padding: .5%;
+  margin: 1%;
+}
+
+.quotation{
+  opacity: 0;
+}
+
+@media (min-width: 320px) {
+
+  .heading{
+    min-width: 420px;
+  }
 
   .nav li{
     font-size: 12px;
@@ -67,47 +120,47 @@ h1 {
   }
 
   h2 {
-      font-family: 'ProximaNovaRegular', sans-serif;
-      padding: 10px;
+      padding: 5px;
+      font-size: 15px;
   }
 
   p {
-      font-family: 'ProximaNovaRegular', sans-serif;
-      padding: 7px;
-      font-size: 22px;
-  }
-
-  form{
-      font-family: 'ProximaNovaRegular', sans-serif;
-      font-size: 20px;
-      padding: 30px;
-      /*box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);*/
-      margin: 30px;
-      position: relative;
-      box-sizing: border-box;
-      /*width: 100%;*/
-      line-height: 30px;
+      padding: 5px;
+      font-size: 13px;
   }
 
   .container a {
-    text-decoration: none;
-    font-family: 'ProximaNovaRegular', sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    color: #004080;
-    padding: 20px;
+    font-size: 20px;
+    padding: 10px;
   }
 
-  footer{
-    position: fixed;
-    bottom: 2%;
-    right: 2%;
-    background-color: white;
+  form{
+      font-size: 13px;
+      padding: 10px;
+  }
+
+  input{
+    border: .5px #000033 solid;
+    line-height: 10px;
+    font-size: 10px;
+  }
+
+  select{
+    line-height: 10px;
+    font-size: 10px;
   }
 
 }
 
-@media (min-width: 720px) {
+@media (min-width: 768px) {
+
+  .heading{
+    min-width: 700px;
+  }
+
+  .form-lines{
+    display: inline-block;
+  }
 
   .nav li{
     font-size: 15px;
@@ -116,6 +169,37 @@ h1 {
   h1 {
       font-size: 35px;
       padding: 25px;
+  }
+
+  h2 {
+      font-size: 20px;
+      padding: 8px;
+  }
+
+  p {
+      padding: 6px;
+      font-size: 17px;
+  }
+
+  .container a {
+    font-size: 25px;
+    padding: 15px;
+  }
+
+  form{
+      font-size: 17px;
+      padding: 15px;
+  }
+
+  input{
+    border: 1px #000033 solid;
+    line-height: 15px;
+    font-size: 13px;
+  }
+
+  select{
+    line-height: 12px;
+    font-size: 12px;
   }
 
 }
@@ -132,42 +216,34 @@ h1 {
   }
 
   h2 {
-      font-family: 'ProximaNovaRegular', sans-serif;
+      font-size: 25px;
       padding: 10px;
   }
 
   p {
-      font-family: 'ProximaNovaRegular', sans-serif;
       padding: 7px;
       font-size: 22px;
   }
 
-  form{
-      font-family: 'ProximaNovaRegular', sans-serif;
-      font-size: 20px;
-      padding: 30px;
-      /*box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);*/
-      margin: 30px;
-      position: relative;
-      box-sizing: border-box;
-      /*width: 100%;*/
-      line-height: 30px;
-  }
-
   .container a {
-    text-decoration: none;
-    font-family: 'ProximaNovaRegular', sans-serif;
-    font-weight: bold;
     font-size: 30px;
-    color: #004080;
     padding: 20px;
   }
 
-  footer{
-    position: fixed;
-    bottom: 2%;
-    right: 2%;
-    background-color: white;
+  form{
+      font-size: 20px;
+      padding: 20px;
+  }
+
+  input{
+    border: 1px #000033 solid;
+    line-height: 20px;
+    font-size: 15px;
+  }
+
+  select{
+    line-height: 15px;
+    font-size: 15px;
   }
 
 }

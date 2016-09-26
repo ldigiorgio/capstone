@@ -1,10 +1,13 @@
 
-var $teacherOrStudent = $('#teacher-student');
+var $teacherOrStudent = $('#teacher-or-student');
 var $experience = $('#teacher-experience');
+var $quotation = $('.quotation');
+var $debug = $('#debug');
 
-var hideAllOptions = function(){
+ $(document).ready(function(){
    $experience.hide();
- }
+   $quotation.hide().css({opacity: 1}).fadeIn(3000);
+ })
 
 $teacherOrStudent.change(function (evt) {
 
@@ -20,14 +23,14 @@ $teacherOrStudent.change(function (evt) {
     // default:
   }
 
-  $('#debug'.text($teacherOrStudent.val()))
+  $debug.text($teacherOrStudent.val())
 
 });
 
-$('.quotation1').on('hover', function() {
-   .fadeIn(500)
-});
-
-$('.quotation2').on('hover', function() {
-   .fadeIn(500)
-});
+// $('.quotation1').on('hover', function() {
+//    $(this).fadeIn(500)
+// });
+//
+// $('.quotation2').on('hover', function() {
+//    $(this).fadeIn(500)
+// });
