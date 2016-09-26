@@ -76,17 +76,24 @@ p {
   color: #004080;
 }
 
-form{
-    font-family: 'ProximaNovaRegular', sans-serif;
-    font-size: 20px;
-    /*box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);*/
-    box-sizing: border-box;
-    /*width: 100%;*/
-    line-height: 30px;
-}
-
 footer{
   margin: 0 auto;
+}
+
+form{
+    font-family: 'ProximaNovaRegular', sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+input{
+  padding: 1%;
+  margin: 2%;
+}
+
+select{
+  padding: .5%;
+  margin: 1%;
 }
 
 @media (min-width: 320px) {
@@ -113,6 +120,22 @@ footer{
   .container a {
     font-size: 20px;
     padding: 10px;
+  }
+
+  form{
+      font-size: 13px;
+      padding: 10px;
+  }
+
+  input{
+    border: .5px black solid;
+    line-height: 10px;
+    font-size: 10px;
+  }
+
+  select{
+    line-height: 10px;
+    font-size: 10px;
   }
 
 }
@@ -143,6 +166,22 @@ footer{
     padding: 15px;
   }
 
+  form{
+      font-size: 17px;
+      padding: 15px;
+  }
+
+  input{
+    border: 1px black solid;
+    line-height: 15px;
+    font-size: 13px;
+  }
+
+  select{
+    line-height: 12px;
+    font-size: 12px;
+  }
+
 }
 
 @media (min-width: 1024px) {
@@ -169,6 +208,22 @@ footer{
   .container a {
     font-size: 30px;
     padding: 20px;
+  }
+
+  form{
+      font-size: 20px;
+      padding: 20px;
+  }
+
+  input{
+    border: 1px black solid;
+    line-height: 20px;
+    font-size: 15px;
+  }
+
+  select{
+    line-height: 15px;
+    font-size: 15px;
   }
 
 }
