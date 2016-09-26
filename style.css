@@ -9,6 +9,11 @@
   background-size: cover;
 }*/
 
+body{
+  display: flex;
+  flex-direction: column;
+}
+
 @font-face {
   font-family:'ProximaNovaRegular';
   src: url('ProximaNovaRegular.otf') format('opentype');
@@ -64,18 +69,6 @@ p {
     font-family: 'ProximaNovaRegular', sans-serif;
 }
 
-form{
-    font-family: 'ProximaNovaRegular', sans-serif;
-    font-size: 20px;
-    padding: 30px;
-    /*box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);*/
-    margin: 30px;
-    position: relative;
-    box-sizing: border-box;
-    /*width: 100%;*/
-    line-height: 30px;
-}
-
 .container a {
   text-decoration: none;
   font-family: 'ProximaNovaRegular', sans-serif;
@@ -83,23 +76,18 @@ form{
   color: #004080;
 }
 
-footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1%;
-  text-align: center;
+form{
+    font-family: 'ProximaNovaRegular', sans-serif;
+    font-size: 20px;
+    /*box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);*/
+    box-sizing: border-box;
+    /*width: 100%;*/
+    line-height: 30px;
 }
 
-
-footer {
-  position: fixed;
-  bottom: 2%;
-  right: 2%;
-  background-color: white;
+footer{
+  margin: 0 auto;
 }
-
 
 @media (min-width: 320px) {
 
