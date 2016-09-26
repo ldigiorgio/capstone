@@ -158,6 +158,10 @@ select{
     min-width: 700px;
   }
 
+  .form-lines{
+    display: inline-block;
+  }
+
   .nav li{
     font-size: 15px;
   }
