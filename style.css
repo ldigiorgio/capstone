@@ -1,5 +1,5 @@
 
-/*html {
+.with-background-image {
   margin:fa
    0;
   background: url("background.jpg") no-repeat center fixed;
@@ -7,9 +7,9 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}*/
+}
 
-body{
+body {
   display: flex;
   flex-direction: column;
 }
@@ -94,6 +94,10 @@ input{
 select{
   padding: .5%;
   margin: 1%;
+}
+
+.quotation{
+  opacity: 0;
 }
 
 @media (min-width: 320px) {
