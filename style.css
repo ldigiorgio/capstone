@@ -47,7 +47,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -55,7 +56,52 @@ h1 {
     font-family: 'ProximaNovaRegular', sans-serif;
 }
 
-@media (min-width: 480px) {
+h2 {
+    font-family: 'ProximaNovaRegular', sans-serif;
+}
+
+p {
+    font-family: 'ProximaNovaRegular', sans-serif;
+}
+
+form{
+    font-family: 'ProximaNovaRegular', sans-serif;
+    font-size: 20px;
+    padding: 30px;
+    /*box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);*/
+    margin: 30px;
+    position: relative;
+    box-sizing: border-box;
+    /*width: 100%;*/
+    line-height: 30px;
+}
+
+.container a {
+  text-decoration: none;
+  font-family: 'ProximaNovaRegular', sans-serif;
+  font-weight: bold;
+  color: #004080;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1%;
+  text-align: center;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  background-color: white;
+}
+
+
+@media (min-width: 320px) {
 
   .nav li{
     font-size: 12px;
@@ -67,47 +113,23 @@ h1 {
   }
 
   h2 {
-      font-family: 'ProximaNovaRegular', sans-serif;
-      padding: 10px;
+      padding: 5px;
+      font-size: 15px;
   }
 
   p {
-      font-family: 'ProximaNovaRegular', sans-serif;
-      padding: 7px;
-      font-size: 22px;
-  }
-
-  form{
-      font-family: 'ProximaNovaRegular', sans-serif;
-      font-size: 20px;
-      padding: 30px;
-      /*box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);*/
-      margin: 30px;
-      position: relative;
-      box-sizing: border-box;
-      /*width: 100%;*/
-      line-height: 30px;
+      padding: 5px;
+      font-size: 13px;
   }
 
   .container a {
-    text-decoration: none;
-    font-family: 'ProximaNovaRegular', sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    color: #004080;
-    padding: 20px;
-  }
-
-  footer{
-    position: fixed;
-    bottom: 2%;
-    right: 2%;
-    background-color: white;
+    font-size: 20px;
+    padding: 10px;
   }
 
 }
 
-@media (min-width: 720px) {
+@media (min-width: 768px) {
 
   .nav li{
     font-size: 15px;
@@ -116,6 +138,21 @@ h1 {
   h1 {
       font-size: 35px;
       padding: 25px;
+  }
+
+  h2 {
+      font-size: 20px;
+      padding: 8px;
+  }
+
+  p {
+      padding: 6px;
+      font-size: 17px;
+  }
+
+  .container a {
+    font-size: 25px;
+    padding: 15px;
   }
 
 }
@@ -132,42 +169,18 @@ h1 {
   }
 
   h2 {
-      font-family: 'ProximaNovaRegular', sans-serif;
+      font-size: 25px;
       padding: 10px;
   }
 
   p {
-      font-family: 'ProximaNovaRegular', sans-serif;
       padding: 7px;
       font-size: 22px;
   }
 
-  form{
-      font-family: 'ProximaNovaRegular', sans-serif;
-      font-size: 20px;
-      padding: 30px;
-      /*box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);*/
-      margin: 30px;
-      position: relative;
-      box-sizing: border-box;
-      /*width: 100%;*/
-      line-height: 30px;
-  }
-
   .container a {
-    text-decoration: none;
-    font-family: 'ProximaNovaRegular', sans-serif;
-    font-weight: bold;
     font-size: 30px;
-    color: #004080;
     padding: 20px;
-  }
-
-  footer{
-    position: fixed;
-    bottom: 2%;
-    right: 2%;
-    background-color: white;
   }
 
 }
