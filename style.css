@@ -37,7 +37,7 @@ body {
 }
 
 .nav a {
-  color: black;
+  color: #000033;
   text-decoration: none;
   transition-property: background;
   transition-duration: 1s;
@@ -59,25 +59,29 @@ body {
 
 h1 {
     font-family: 'ProximaNovaRegular', sans-serif;
+    color: #000033;
 }
 
 h2 {
     font-family: 'ProximaNovaRegular', sans-serif;
+    color: #000033;
 }
 
 p {
     font-family: 'ProximaNovaRegular', sans-serif;
+    color: #000033;
 }
 
 .container a {
   text-decoration: none;
   font-family: 'ProximaNovaRegular', sans-serif;
   font-weight: bold;
-  color: #004080;
+  color: #3333cc;
 }
 
 footer{
   margin: 0 auto;
+  color:  #000033;
 }
 
 form{
@@ -101,6 +105,10 @@ select{
 }
 
 @media (min-width: 320px) {
+
+  .heading{
+    min-width: 420px;
+  }
 
   .nav li{
     font-size: 12px;
@@ -132,7 +140,7 @@ select{
   }
 
   input{
-    border: .5px black solid;
+    border: .5px #000033 solid;
     line-height: 10px;
     font-size: 10px;
   }
@@ -145,6 +153,10 @@ select{
 }
 
 @media (min-width: 768px) {
+
+  .heading{
+    min-width: 700px;
+  }
 
   .nav li{
     font-size: 15px;
@@ -176,7 +188,7 @@ select{
   }
 
   input{
-    border: 1px black solid;
+    border: 1px #000033 solid;
     line-height: 15px;
     font-size: 13px;
   }
@@ -220,7 +232,7 @@ select{
   }
 
   input{
-    border: 1px black solid;
+    border: 1px #000033 solid;
     line-height: 20px;
     font-size: 15px;
   }
