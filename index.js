@@ -16,21 +16,10 @@ $teacherOrStudent.change(function (evt) {
   switch(selectedRole) {
     case 'teacher':
         $experience.show(500);
-        // break;
     case 'both':
         $experience.show(500);
-        // break;
-    // default:
   }
 
   $debug.text($teacherOrStudent.val())
 
 });
-
-// $('.quotation1').on('hover', function() {
-//    $(this).fadeIn(500)
-// });
-//
-// $('.quotation2').on('hover', function() {
-//    $(this).fadeIn(500)
-// });
